@@ -1,8 +1,27 @@
 aid: destineer
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/destineer.png
 name: Destineer
-description: 'Destineer is a company surfaced as a portfolio company of kleiner-perkins and added to the
-  API Evangelist network as a stub for enrichment. Sector: hardtech. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Destineer was a networking-solutions provider for telecommunications carriers, and an early-stage
+  Kleiner Perkins portfolio company partnered since 1995. Per Kleiner Perkins'' own partnerships archive,
+  the company was acquired by MCI WorldCom and no longer operates as an independent entity. Enrichment
+  probes in July 2026 found no live web presence: destineer.com, destineer.net, destineer.dev and destineer.us
+  all return NXDOMAIN, there is no developer portal, documentation, or GitHub organization, and the APIs.io
+  catalog lists no APIs for this provider. Because the company predates the public web API era and is
+  defunct, no API, specification, SDK, or agent artifacts exist to harvest. This profile is retained as a
+  historical portfolio record in the Kleiner Perkins investment graph rather than as an active API provider.
+  Note: the unrelated video-game publisher of the same name (Minnetonka, MN, 2001-2011) and the individual
+  github.com/destineer account are not this company.'
 url: https://raw.githubusercontent.com/api-evangelist/destineer/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +29,34 @@ x-backed-by:
 - kleiner-perkins
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: MCI WorldCom
+x-partnered-since: '1995'
+x-api-surface: none
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Hardtech
+- Telecommunications
+- Networking
+- Carrier Networks
+- Acquired
+- Historical
+- Kleiner Perkins Portfolio
+common:
+- type: VentureCapital
+  name: Kleiner Perkins Partnerships Archive
+  url: https://www.kleinerperkins.com/partnerships/
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
